@@ -12,10 +12,18 @@ namespace _1HW
         protected void Page_Load(object sender, EventArgs e)
         {
             int num = 12;
-            for (int i =2;i<num;i++)
+            for (int i = 2; i < num; i++)
             {
-                if(num %i == 0)
-                
+                if (num % i == 0)
+                {
+                    Response.Write(num + "不是質數");
+                    break;
+                }
+                else
+                {
+                    Response.Write(num + "是質數");
+                    break;
+                }
             }
         }
     }
