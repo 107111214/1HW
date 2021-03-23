@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="1HW.aspx" />
+    <Content Include="Prime.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,12 +83,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="1HW.aspx.cs">
-      <DependentUpon>1HW.aspx</DependentUpon>
+    <Compile Include="Prime.aspx.cs">
+      <DependentUpon>Prime.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="1HW.aspx.designer.cs">
-      <DependentUpon>1HW.aspx</DependentUpon>
+    <Compile Include="Prime.aspx.designer.cs">
+      <DependentUpon>Prime.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
